@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b66131e7-7f4b-4ed5-8283-cef1dd514816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/kafka-basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-elasticsearch/kafka-elasticsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-elasticsearch/src/main/java/com/anuranbarman/kafka/tutorial3/ElasticSearchConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter-producer/kafka-twitter-producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter-producer/src/main/java/com/anuranbarman/kafka/tutorial2/TwitterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter-producer/src/main/java/com/anuranbarman/kafka/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerDemoWithThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ConsumerDemoWithThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ConsumerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ConsumerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anuranbarman/kafka/tutorial1/ProducerDemoWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1/ProducerDemoWithKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/kafkapractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ConsumerDemoAssignSeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ConsumerDemoGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ConsumerDemoWithThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ConsumerRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ProducerDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ProducerDemoWithKeys$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anuranbarman/kafka/tutorial1/ProducerDemoWithKeys.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +63,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.anuranbarman.kafka.tutorial1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java/com.anuranbarman.kafka.tutorial1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
+  <component name="RunManager" selected="Application.TwitterProducer">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anuranbarman.kafka.tutorial1.ConsumerDemo" />
       <module name="kafkapractice" />
@@ -90,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anuranbarman.kafka.tutorial1.ProducerDemo" />
-      <module name="kafkapractice" />
+    <configuration name="ElasticSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anuranbarman.kafka.tutorial3.ElasticSearchConsumer" />
+      <module name="kafka-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anuranbarman.kafka.tutorial1.*" />
+          <option name="PATTERN" value="com.anuranbarman.kafka.tutorial3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoWithKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anuranbarman.kafka.tutorial1.ProducerDemoWithKeys" />
-      <module name="kafkapractice" />
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anuranbarman.kafka.tutorial2.TwitterProducer" />
+      <module name="kafka-twitter-producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anuranbarman.kafka.tutorial1.*" />
+          <option name="PATTERN" value="com.anuranbarman.kafka.tutorial2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterProducer" />
+        <item itemvalue="Application.ElasticSearchConsumer" />
         <item itemvalue="Application.ConsumerDemoAssignSeek" />
         <item itemvalue="Application.ConsumerDemoWithThreads" />
         <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemoWithKeys" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
